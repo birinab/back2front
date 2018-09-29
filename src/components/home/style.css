@@ -1,0 +1,13 @@
+#home{
+	background-color: #4B966E;
+	color:white;
+}
+input{
+	background-color: #aa5239;
+	color:white;
+}
+#home img{
+	width:80%;
+	border:1px solid;
+	border-radius: 10px;
+}
