@@ -9,7 +9,7 @@ input{
 	background-color: #aa5239;
 	color:white;
 }
-#home img{
+.dog{
 	width:80%;
 	border:1px solid;
 	border-radius: 10px;
@@ -28,8 +28,23 @@ button{
     color:white;
 }
 
+
+    
+#homelogo{
+align-self: flex-start;
+height: 100px;
+object-fit: contain;
+margin-left: 25px;
+
+}
+
 @media screen and (min-width: 400px) {
     #home img {
         width:300px;
-    }
+	}
+	#homelogo{
+		height: 60px;
+		margin-left: 25px;
+	}
+	
 }
