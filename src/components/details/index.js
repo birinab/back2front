@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import './style.css'
+import './style.css';
 
 const mapStateToProps = state => {
     return {animal : state.animal}

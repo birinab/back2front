@@ -39,6 +39,14 @@ margin-left: 25px;
 
 }
 
+@media screen and (max-width: 600px) {
+   #homelogo{
+        width: 60px;
+   height: 60px;
+    }
+
+}
+
 @media screen and (min-width: 400px) {
     #home img {
         width:300px;
