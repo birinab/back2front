@@ -1,0 +1,20 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.animal{
+display: inline-block;    
+}
+.do{
+    color: green;
+}
+.dont{
+   color:red;
+}
+.btn{
+    float: right;
+}
+.h{
+    margin: 0 auto;
+}
