@@ -41,6 +41,7 @@ box-shadow: 3px 2px 25px -2px rgba(0,0,0,0.66);
     display: inline-block;
     margin: 20px;
     width: 45%;
+
 }
 p{color: white;}
 
@@ -59,4 +60,27 @@ li{color: white;}
 .arrow{
     width: 30px;
     
+}
+.tenor-gif-embed {
+    width: 40%;
+    height: 150px;
+}
+.logo{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.logoImg{
+    width: 150px;
+}
+h5{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
