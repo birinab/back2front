@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 import {Link } from "react-router-dom";
+import homepageImage from '../../images/homepage.jpg';
 class Home extends Component{
 
     render(){
@@ -8,7 +9,7 @@ class Home extends Component{
            <div id="home" className="container">
             <div>
             <div>Take a picture of your animal</div>
-            <img src="http://pluspng.com/img-png/mobile-in-hand-png-snapshot-800.png"/>
+            <img src={homepageImage}/>
             </div>
             <Link to="/animal" style={{ textDecoration: 'none' }}><button className="linkButton">Scan the animal</button></Link>
       </div>
