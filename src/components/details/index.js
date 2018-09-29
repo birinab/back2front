@@ -4,7 +4,8 @@ class Details extends Component{
     render(){
         return(
            <div>
-            Hello from details
+            <div>Animal name</div>
+            <div>Latin name</div>
       </div>
       )
     }
