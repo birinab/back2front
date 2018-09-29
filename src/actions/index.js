@@ -1,4 +1,4 @@
-export const isAuth=flag=>(
-    {type:"IS_AUTH",
-    flag:flag}
+export const setAnimals=animals=>(
+    {type:"ANIMALS",
+    animals:animals}
     )
