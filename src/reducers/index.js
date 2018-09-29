@@ -1,14 +1,20 @@
 const initialState = {
+animal:{
+	name:"Dog",
+	latinName:"Canis lupus familiaris",
+	dos:["lorem1","lorem2","lorem3"],
+	donts:["lorem1","lorem2","lorem3"],
+	
+},
   
-  auth : false,
+  
   
 
 }
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "IS_AUTH":
-    return Object.assign({},state, {auth:action.flag});
+   
 
       
     default:
