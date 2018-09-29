@@ -6,6 +6,10 @@ import logo from '../../images/logo.png'
 import logo1 from '../../images/ss.png'
 class Home extends Component{
 
+  scanAnimal(){
+    
+  }
+
     render(){
         return(
            <div id="home" className="container">
@@ -16,7 +20,7 @@ class Home extends Component{
             
             <img className='dog' src={homepageImage}/>
             
-            <Link to="/animal" style={{ textDecoration: 'none' }}><button className="linkButton">Scan the animal</button></Link>
+            <Link to="/animal" style={{ textDecoration: 'none' }}><button className="linkButton" onClick={this.scanAnimal}>Scan the animal</button></Link>
       </div>
       )
     }
