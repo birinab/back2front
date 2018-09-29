@@ -4,7 +4,10 @@ class Home extends Component{
     render(){
         return(
            <div>
-            Hello from home
+            <div>
+            ovde stoji video
+            </div>
+            <input type="button"/>
       </div>
       )
     }
