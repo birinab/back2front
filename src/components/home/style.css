@@ -32,7 +32,8 @@ button{
     
 #homelogo{
 align-self: flex-start;
-height: 100px;
+width: 200px;
+height: 200px;
 object-fit: contain;
 margin-left: 25px;
 
@@ -41,10 +42,6 @@ margin-left: 25px;
 @media screen and (min-width: 400px) {
     #home img {
         width:300px;
-	}
-	#homelogo{
-		height: 60px;
-		margin-left: 25px;
 	}
 	
 }

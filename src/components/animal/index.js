@@ -22,12 +22,14 @@ class ConnectedAnimal extends Component{
             <div className='flex'>
             <img className='animal' src={hasky}/>
             <h1 className='h'>{this.props.animal.name}({this.props.animal.latinName})</h1>
+           
             <Link to ='/details'>
             <button className="btn btn-primary btn-lg">Details</button>
             </Link>
             <Link to ='/'>
            <img className="arrow" src={arrow}/>
            </Link>
+           
             </div>
            <h3 className='do'>DO : </h3> 
            <ul className='do'>
