@@ -2,19 +2,38 @@
 body{
     display: flex;
     justify-content: center;
+    background-color: #4B966E;
+    color: white;
+    margin: 0 auto;
+    flex-direction:row;
 }
 .animal{
-display: inline-block;    
+display: inline-block; 
+-webkit-box-shadow: 3px 2px 25px -2px rgba(0,0,0,0.66);
+-moz-box-shadow: 3px 2px 25px -2px rgba(0,0,0,0.66);
+box-shadow: 3px 2px 25px -2px rgba(0,0,0,0.66);  
+border-radius: 3px; 
 }
 .do{
-    color: green;
+    color: #28546C;
 }
 .dont{
-   color:red;
+   color: #AA7639;
+   width: 50%;
 }
 .btn{
     float: right;
+    width: 150px;
+    height: 70px;
+    background-color: #AA5239;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
 }
 .h{
     margin: 0 auto;
+}
+p{color: white;}
+.container{
+    width: 80%;
 }
